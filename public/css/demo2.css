@@ -1,0 +1,136 @@
+
+.features-tabs li{
+    background: url("") no-repeat left 20px;
+    color: #F8F8F8;
+}
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/BG.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* demo */
+.hero-info h1{
+    padding-top: 182px;
+}
+.upload_fx{
+    border:1px solid #FA4260;
+    width:300px;
+    margin:0 auto;
+    height: 301px;
+    -ms-transform:rotate(10deg); /* IE 9 */
+    -moz-transform:rotate(10deg); /* Firefox */
+    -webkit-transform:rotate(10deg); /* Safari and Chrome */
+    -o-transform:rotate(10deg); /* Opera */
+}
+.upload_img{
+    -ms-transform:rotate(-10deg); /* IE 9 */
+    -moz-transform:rotate(-10deg); /* Firefox */
+    -webkit-transform:rotate(-10deg); /* Safari and Chrome */
+    -o-transform:rotate(-10deg); /* Opera */
+}
+a.upload-img{
+    width:360px;
+    display: inline-block;
+    margin-top: 84px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #FB4A5C;
+    border-radius: 3px;
+    text-decoration:none;
+    cursor:pointer;
+    border: 0px #fff solid;
+    box-shadow: 0px 0px 5px #B0B0B0;
+}
+a.upload-img:hover{
+    background-color: #ec7e70;
+}
+
+.tc{text-align:center;}
+.upload_url{
+    margin-top: 65px;
+}
+.upload_url input{
+    width: 260px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 3px;
+    border: 0px #fff solid;
+    padding-left: 20px;
+}
+button.upload-url-btn {
+
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #191C1C;
+    border: 1px solid #FB4A5C;
+    width: 100px;
+}
+.upload-img-left{
+    width:45%;
+    display: inline;
+    float: left;
+}
+.Bar ,.Bars {
+    position: relative;
+    width: 154px; /* 宽度 */
+    background-color: #3A4141;
+    border-radius: 10px;
+}
+.Bar div,.Bars div {
+    display: block;
+    position: relative;
+    background:#FB4A5C;
+    color: #333333;
+    height: 10px;
+    border-radius: 10px;
+}
+.upload-result{
+    width:616px;height:193px;margin:0 auto;background-color:#242828;
+}
+.upload-result h3{
+    text-align:left;padding:30px 40px;
+}
+.upload-result-body{
+    width: 100%;height: 61px;line-height: 61px;
+}
+.sdiv{
+    width: 25%;float: left;
+}
+.rolling_bar{
+    height: 61px;line-height: 30px;font-size:16px;
+}
+
+/*二维码*/
+#code,#code_hover{width:40px;height:195px;background:url(../img/icon.png) no-repeat;position:fixed;right:50px;cursor:pointer;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+#code{background-position: -189px 0px;top:40%;_margin-bottom:120px;}
+#code_hover{background-position: -189px 0px;top:40%;_margin-bottom:120px;}
+
+#code_img{width:270px;height:355px;background: url(../img/icon.png) 92px 109px no-repeat;position:fixed;right:90px;top:30%;cursor:pointer;display:none;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));_margin-bottom:67px;}
+
+
+input#upload-b{
+    width:360px;
+    display: inline-block;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #FB4A5C;
+    border-radius: 3px;
+    text-decoration:none;
+    cursor:pointer;
+    border: 0px #fff solid;
+    box-shadow: 0px 0px 5px #B0B0B0;
+}

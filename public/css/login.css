@@ -1,0 +1,161 @@
+body {
+  padding-top: 57px;
+  background-color: #fff;
+}
+.container{
+  margin: auto;
+}
+.login-form{
+  margin-top: 30px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 0px 45px 45px 45px;
+  margin: 0 auto;
+  border: 1px solid #FDD6D7;
+  background-color: #fff;
+  border-radius:6px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align:center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid #FD4545;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 2rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top:  2rem;
+  border: 1px solid #FD4545;
+}
+
+.input-group {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+input#inputEmail {
+  background-image: url(../img/input_ico1.gif);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+input#inputPassword {
+  background-image: url(../img/input_ico2.gif);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.c_manager{
+  margin: 2rem 0;
+}
+
+.container{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: white;
+}
+
+#loginbox {
+  margin-top: 30px;
+}
+
+#loginbox>div:first-child {
+  padding-bottom: 10px;
+  margin-top: 30%;
+}
+
+.iconmelon {
+  display: block;
+  margin: auto;
+}
+
+#form>div {
+  margin-bottom: 25px;
+}
+
+#form>div:last-child {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.panel {
+  background-color: transparent;
+}
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.iconmelon, .im {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: block;
+  fill: #525151;
+}
+
+.iconmelon:after, .im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.msg {
+  height: 10px;
+  clear: both;
+}
+
+.copy {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+.btn-write {
+  color: #FE4646;
+  background: #fff;
+  border: 1px solid #FE4646;
+}
+
+.btn-class{
+  margin: 0 20px;
+}

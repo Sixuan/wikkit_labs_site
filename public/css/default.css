@@ -1,0 +1,390 @@
+
+td.tr-button {
+    text-align: center;
+}
+.row.right-picter {
+    margin: 0 2rem;
+}
+.left-video-container{
+	text-align: center;
+/*	padding: 2rem 0ex;*/
+}
+.panel-header.panel-title {
+    text-align: center;
+    padding: 5rem 0 0 0;
+}
+.red-bg {
+  background: #FD7158;
+  background-color: #FD7158;
+}
+.orange-bg {
+  background : #FDB65A;
+  background-color : #FDB65A;
+}
+.blue-bg {
+  background : #76BFE8;
+  background-color : #76BFE8;
+}
+li.header-logo {
+    padding-left: 2rem;
+}
+li.ligouhai{
+	padding: 0 3rem;
+}
+img.img-responsive {
+    border-radius: 4px;
+}
+.form-group{
+    margin-bottom: 5px;
+}
+p.picture-font{
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    margin:0;
+    padding: 3px;
+    width: 80%;
+    left:10%;
+    color:#fff;
+    font-size: 14px;
+}
+strong.font-sl {
+    color: #343946;
+    font-size: 16px;
+}
+.activity .panel .panel-heading {
+  padding-top: 5px;
+    background-color: #FE4647;
+}
+.panel-body.panel-chonse {
+    text-align: center;
+    padding: 3rem 0 15.1rem 0;
+    color: #E19B9B;
+}
+img.active {
+    border: 2px solid #FF5454;
+}
+.chonse-ok{
+	position: absolute;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.68);
+    margin:0;
+    padding: 3px;
+    width: 100%;
+    color:#fff;
+    height: 60px;
+    font-size: 20px;
+}
+button.chongse-btn {
+    padding:  3px 5rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.chonse-phone {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.chonse-count {
+/*    margin-top: 2rem;
+    margin-bottom: 1rem;*/
+}
+ul.list-unstyled.chonse-ul {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.chonse-ul li{
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #eee;
+}
+li.chonse-header {
+    border-top: 1px solid #eee;
+    background-color: #FFF6F5;
+    color: #FF464B;
+}
+
+img.img-member {
+    position: absolute;
+    left: 75%;
+    padding-top: 1rem;
+}
+.chonse-form {
+    padding: 0.5rem 3rem;
+}
+
+.btn-write {
+    color: #FE4646;
+    background: #fff;
+    border: 1px solid #FE4646;
+}
+.default-btn{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.form-btn-right{
+    float: right;
+}
+
+.chonse-jane{
+    text-align: center;
+}
+.calculator-header {
+    background-color: #333945;
+    color:#fff;
+}
+.calculator-font {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 2rem;
+}
+.calculator-money {
+    text-align: right;
+    font-size: 30px;
+    padding-right: 2rem;
+}
+ul.list-unstyled li {
+/*    padding: 20px 0;*/
+}
+
+.ca-btn{
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+    border-bottom: 0px;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    font-size: 30px;
+    color: #343946;
+}
+.ca-btn-bottom{
+    border-bottom: 1px solid #eee;
+}
+/*后台*/
+/* member-info  start*/
+div.count-header{
+    height:60px;font-size:20px;padding-top:20px;color:#fff;padding-left:10%;
+}
+.list-unstyled-li{
+    height:24px;text-align:center;border-bottom:1px solid #eee
+}
+.chonse-header-right{
+    width:50%;float:right;color:#343946;font-size:16px;
+}
+.chonse-header-right-show{
+    float:right;color:#343946;font-size:16px;
+}
+li.member-info-list{
+    height:40px;text-align:center;padding-top:12px;border-bottom:1px solid #eee
+}
+span.member-info-date{
+    width:50%;color:#343946;font-size:16px;
+}
+/* member-info  end*/
+/* clerk start */
+a.btn.add-dy4-server.active {
+    background-color: #FF5454;
+}
+.add-dy{
+    width:735px;background-color:#fff;margin-left: auto;margin-right: auto;
+}
+.add-body{
+    background-color:#FAFAFA;border:1px inside #dedede;height:680px;padding-top:60px;
+}
+.add-btn-cancel{
+    border:1px solid #FD4746;background-color:#fff;color:#FD4746;width:16rem
+}
+.add-body2{
+    background-color:#FAFAFA;border:1px inside #dedede;height:620px;text-align: center;
+}
+/* clerk end */
+/* account start */
+.add-dy3{
+    width:600px;height:330px;background-color:#fff;margin-left: auto;margin-right: auto;padding-bottom:20px;margin-top:80px;
+}
+.add-dy4{
+    width:600px;margin-left: auto;margin-right: auto;padding-top:50px;
+}
+.add-dy4-span{
+    padding-right:30px;padding-left:30px;
+}
+.add-dy4-server{
+    background-color:#6D717C;color:#fff;maragin-left:30px;maragin-right:30px;
+}
+.add-dy4-feedback{
+    background-color:#6D717C;color:#fff;maragin-left:30px;
+}
+.add-dy5{
+    width:600px;margin-left: auto;margin-right: auto;padding-top:50px;text-align:center
+}
+.add-dy6{
+    width:440px;background-color:#fff;margin-left: auto;margin-right: auto;
+}
+.add-body3{
+    background-color:#FAFAFA;border:1px inside #dedede;height:472px;width:440px;padding-top:40px;
+}
+.add-dy7{
+    width:440px;background-color:#fff;margin-left: auto;margin-right: auto;
+}
+.add-dy8{
+    width:90%;background-color:#fff;margin-left: auto;margin-right: auto;
+}
+.add-body4{
+    background-color:#FAFAFA;border:1px inside #dedede;height:412px;width:100%;padding-top:40px;height:700px;
+}
+.add-body5{
+    background-color:#FAFAFA;border:1px inside #dedede;height:412px;width:440px;padding-top:20px;
+}
+/* account end */
+div.count-store{
+    height:8.5rem;background-image:url(../img/red.png);background-repeat:no-repeat;margin-bottom: 2rem;margin-left: 3.5rem;
+}
+div.count-money{
+    height:8.5rem;background-image:url(../img/blue.png);background-repeat:no-repeat;margin-left: 3.5rem;
+}
+td.tr-button {
+    text-align: center;
+}
+.fa-float{
+    float: right;
+}
+img.member-img {
+    width: 30px;
+    border-radius:20px;
+}
+img.member-img-menu {
+    width: 30px;
+}
+thead.member-header {
+    background-color: #FFF6F5;
+    border-top: 1px solid #DEDEDE;
+}
+li.ligouhai{
+    padding: 0 3rem;
+}
+.pay-money{
+    background-color: #FDB65A;
+}
+.panel-member{
+    padding: 10px;
+    float: right;
+    height: 40px;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+.panel-member a{
+    padding-right: 40px;
+}
+.panel-list{
+    float: left;
+    padding-left: 2.5rem;
+}
+.chongse-btn {
+    width: 58%;
+    margin: 0rem 0px 1rem 0px;
+}
+.sidebar-header2 {
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.awss1 {
+    padding-left: 2rem;
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 1rem;
+}
+
+.font-count {
+    font-size: 36px;
+}
+
+.awss2 {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 2rem;
+}
+span.member-config-header {
+    font-size: 20px;
+    padding-right: 20px;
+}
+span.member-config1 {
+    display: block;
+    font-size: 18px;
+}
+
+span.member-config2 {
+    font-size: 19px;
+    display: block;
+    padding-bottom: 1rem;
+    /* margin-bottom: 5rem; */
+}
+.default-btn-msm{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.overflow_y{
+    height:320px;
+    overflow:auto;
+}
+
+.panel-header.panel-title p {
+    font-size: 24px;
+    line-height: 33px;
+    color: #343946;
+    font-family: PingFangSC-Ultralight;
+}
+.panel-header.panel-title h2 {
+    color: #343946;
+    font-size: 48px;
+    line-height: 67px;
+    font-family: PingFangSC-Thin;
+}
+
+.chk_1 {
+    display: none;
+}
+
+/*******STYLE 1*******/
+.chk_1 + label {
+    background-color: #FFF;
+    border: 1px solid #D69392;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+}
+.chk_1 + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.chk_1:checked + label {
+    background-color: #FE4445;
+    border: 1px solid #FE4445;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+    color: #243441;
+}
+
+.chk_1:checked + label:after {
+    content: '\2714';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 1px 0 0 0;
+    vertical-align: text-top;
+}
+strong.font-sl {
+    color: #fff;
+}
+.navbar .navbar-nav li a{
+    line-height: 49px;
+}

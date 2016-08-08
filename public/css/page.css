@@ -1,0 +1,110 @@
+.features-tabs li{
+    background: url("") no-repeat left 20px;
+    color: #F8F8F8;
+}
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/BG.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.demo-hero{
+    padding-top: 111px;
+}
+.demo-hero img{
+    /* -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; */
+    width: 150px;
+    height: 150px;
+    opacity: 0.4;
+}
+img:hover{
+    opacity: 1;
+    filter: none;
+}
+.hero-info {
+    padding-top: 111px;
+}
+.demo-hero img:hover{opacity:1;-ms-filter:none;filter:none}
+
+h3.hearo-nav-title {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.hearo-nav-body{
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    border-left: 5px solid #FB4A5C;
+
+    font-size: 20px;
+    line-height: 28px;
+}
+.hearo-nav-body.active{
+    background-color: #3A4141;
+}
+.hearo-nav-body a{
+    color: #FFFFFF;
+}
+.hearo-my-img{
+    border: 1px solid #FB4A5C;
+    -ms-transform:rotate(10deg); /* IE 9 */
+    -moz-transform:rotate(10deg); /* Firefox */
+    -webkit-transform:rotate(10deg); /* Safari and Chrome */
+    -o-transform:rotate(10deg); /* Opera */
+}
+.hearo-my-img img {
+    padding: 40px;
+}
+.hearo-my-img img{
+    -ms-transform:rotate(-10deg); /* IE 9 */
+    -moz-transform:rotate(-10deg); /* Firefox */
+    -webkit-transform:rotate(-10deg); /* Safari and Chrome */
+    -o-transform:rotate(-10deg); /* Opera */
+}
+.hearo-my-img canvas{
+    -ms-transform:rotate(-10deg); /* IE 9 */
+    -moz-transform:rotate(-10deg); /* Firefox */
+    -webkit-transform:rotate(-10deg); /* Safari and Chrome */
+    -o-transform:rotate(-10deg); /* Opera */
+}
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+
+
+.landmark-type {
+    float: left;
+    clear: both;
+    padding: 5px;
+    margin: 35px 10px 0 50px;
+    text-align: center;
+    width: 30px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.demo-landmark-type {
+    position: absolute;
+    z-index: 200;
+}
+/*二维码*/
+#code,#code_hover{width:40px;height:195px;background:url(../img/qrcode.png) no-repeat;position:fixed;right:50px;cursor:pointer;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+#code{background-position: -189px 0px;top:40%;_margin-bottom:120px;}
+#code_hover{background-position: -189px 0px;top:40%;_margin-bottom:120px;}
+
+#code_img{width:270px;height:355px;background: url(../img/qrcode.png) 92px 109px no-repeat;position:fixed;right:90px;top:30%;cursor:pointer;display:none;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));_margin-bottom:67px;}
